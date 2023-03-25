@@ -4,8 +4,21 @@ header {
     font-family: Bahnschrift;
 }
 body {
+    text-align: -webkit-left;
     background-color: cadetblue;
     font-family: Bahnschrift;
 
 }
+.text {
+    font-size: 12px;
+    padding-left: 620px;
+
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 
