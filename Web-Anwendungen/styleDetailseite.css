@@ -2,20 +2,21 @@ header {
     background-color: dimgrey;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 5px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin-bottom: -5px;
+    height: 100px;
     color: whitesmoke;
 }
+
 body {
-    text-align:-webkit-left;
-    background-color: dimgrey;
-    font-family: "Agency FB";
-    margin: 0;
+    text-align: -webkit-left;
+    background-color: white;
+    font-family: "Lato";
+    margin: 0px;
 
 }
 
 nav {
+    margin-top: -50px;
     overflow: hidden;
     background-color: #333;
     border-radius: 10px;
@@ -44,34 +45,92 @@ a {
     color: whitesmoke;
 }
 
-.slides{
+.slides {
+    border-radius: 25px;
+    margin-top: 50px;
     display: block;
-    width: 65%;
+    margin-left: 200px;
+    margin-right: 500px;
+    width: 50%;
 }
 
 .details {
+    display: block;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 500px;
     background-color: aliceblue;
     text-align: center;
-    font-family: "Agency FB";
     font-size: 25px;
-    border: 2px solid black;
+    border: 1px solid lightgrey;
     float: top;
-    width: 65%;
-    overflow: hidden;
+    width: 50%;
 
 }
 
-
-.Preis {
+.section1 {
+    display: block;
     position: absolute;
-    right:0;
-    width: 35%;
-    height: 100%;
-    border: 2px solid black;
+    right: 0;
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    margin-right: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
     background-color: aliceblue;
-    font-size: 25px;
+    padding: 50px;
+    position: fixed;
+}
+
+.preis {
     text-align: center;
-    overflow-y:scroll;
+}
+
+.verfügbarkeit {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 100px
+}
+
+.kalender {
+    padding: 1px;
+    width: 100%;
+    background: darkgrey;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.wochentage {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+.wochentage li {
+    display: inline-block;
+    width: 12.6%;
+    color: #666;
+    text-align: center;
+}
+.tage {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+.tage li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+.tage li .active {
+    padding: 5px;
+    background: lightgrey;
+    color: white;
 }
 
 p {
