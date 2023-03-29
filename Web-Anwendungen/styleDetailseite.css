@@ -1,0 +1,79 @@
+header {
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: whitesmoke;
+}
+body {
+    text-align:-webkit-left;
+    background-color: dimgrey;
+    font-family: "Agency FB";
+    margin: 0;
+
+}
+
+nav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    float: left;
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+a {
+
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.slides{
+    display: block;
+    width: 65%;
+}
+
+.details {
+    background-color: aliceblue;
+    text-align: center;
+    font-family: "Agency FB";
+    font-size: 25px;
+    border: 2px solid black;
+    float: top;
+    width: 65%;
+    overflow: hidden;
+
+}
+
+
+.Preis {
+    position: absolute;
+    right:0;
+    width: 35%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    overflow-y:scroll;
+}
+
+p {
+    text-align: left;
+}
