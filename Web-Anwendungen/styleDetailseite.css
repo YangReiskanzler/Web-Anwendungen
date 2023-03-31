@@ -61,7 +61,7 @@ a {
     margin-right: 500px;
     background-color: #eafdff;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border: 1px solid lightgrey;
     float: top;
     width: 50%;
@@ -104,26 +104,29 @@ a {
 .wochentage {
     margin: 0;
     padding: 10px 0;
-    background-color:#ddd;
+    background-color: #ddd;
 }
+
 .wochentage li {
     display: inline-block;
     width: 12.6%;
     color: #666;
     text-align: center;
 }
+
 .tage {
     padding: 10px 0;
     background: #eee;
     margin: 0;
 }
+
 .tage li {
     list-style-type: none;
     display: inline-block;
     width: 12.6%;
     text-align: center;
     margin-bottom: 5px;
-    font-size:12px;
+    font-size: 12px;
     color: #777;
 }
 
@@ -131,11 +134,13 @@ a {
     background-color: #ddd;
     color: black;
 }
+
 .tage li .active {
-    background:orangered ;
+    background: orangered;
     color: white;
     padding: 5px;
 }
+
 .karte {
     display: block;
     margin-top: 50px;
@@ -143,12 +148,12 @@ a {
     margin-right: 500px;
     background-color: #eafdff;
     text-align: center;
-    font-size: 25px;
     border: 1px solid lightgrey;
     float: top;
     width: 50%;
 }
-.kontakt{
+
+.kontakt {
     display: block;
     margin-top: 50px;
     margin-left: 200px;
@@ -161,8 +166,36 @@ a {
     width: 50%;
 
 }
+
+.bewertungen {
+    display: block;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 500px;
+    background-color: #eafdff;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid lightgrey;
+    float: top;
+    width: 50%;
+    margin-bottom: 100px;
+
+}
+
 p {
     text-align: left;
     font-size: 20px;
     padding-left: 20px;
+}
+
+footer {
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-decoration: none;
+
+
 }
