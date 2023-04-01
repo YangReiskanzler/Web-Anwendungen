@@ -80,6 +80,7 @@ a {
     background-color: #eafdff;
     padding: 50px;
     position: fixed;
+    text-align: center;
 }
 
 .preis {
@@ -90,7 +91,7 @@ a {
     font-size: 20px;
     text-align: center;
     border-radius: 25px;
-    margin: 100px
+    margin: 70px
 }
 
 .kalender {
