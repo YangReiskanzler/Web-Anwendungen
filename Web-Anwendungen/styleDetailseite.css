@@ -83,27 +83,30 @@ a {
 .kalender {
     padding: 1px;
     width: 100%;
-    background: darkgrey;
+    background: dimgrey;
+    color: white;
     text-align: center;
     margin-top: -50px;
 }
 
 .wochentage {
+    width: 100%;
     margin: 0;
     padding: 10px 0;
-    background-color: #ddd;
+    background-color: lightgrey;
 }
 
 .wochentage li {
     display: inline-block;
     width: 12.6%;
-    color: #666;
+    color: #000000;
     text-align: center;
 }
 
 .tage {
     padding: 10px 0;
     background: #eee;
+    width: 100%;
     margin: 0;
 }
 
@@ -149,7 +152,7 @@ a {
     margin-right: 500px;
     background-color: #eafdff;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border: 1px solid lightgrey;
     float: top;
     width: 50%;
